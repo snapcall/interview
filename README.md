@@ -2,7 +2,7 @@
 
 ## Instructions
 
-The project is intended to be done within 4 hours or less. You will create a private repository, and once you have finished your 4 hours, send an email to `thomas@snapcall.io` with an invitation to access the repo. Please note, we value more an unfinished project, that a finished project that overpassed the timeframe.
+The project is intended to be done within 4 hours or less. You will push all your commits in a private GitHub repository that you previously created, and once you have finished your 4 hours, send an email to `thomas@snapcall.io` with an invitation to access the repo. Please note, we value more an unfinished project, that a finished project that overpassed the timeframe.
 
 You will have to create a front-end application (and if you have time a back-end one too).
 
