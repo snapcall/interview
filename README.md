@@ -2,45 +2,58 @@
 
 ## Instructions
 
-You will have to create a front-end application (and maybe a back-end one too) that will simply render data.
+The project is intended to be done within 4 hours or less. You will create a private repository, and once you have finished your 4 hours, send an email to `thomas@snapcall.io` with an invitation to access the repo. Please note, we value more an unfinished project, that a finished project that overpassed the timeframe.
 
-The front-end application will have to use [React](https://reactjs.org/) without using [CRA](https://github.com/facebook/create-react-app).
+You will have to create a front-end application (and if you have time a back-end one too).
 
-You are free to chose all the other package you want to use (linters, compilers, etc).
+The front-end application will have to use [React](https://reactjs.org/) without using [CRA](https://github.com/facebook/create-react-app). You are free to chose all the other packages you want to use, e.g: linter, compiler, etc.
 
 ## Levels
 
-This test have multiple level, you can chose to only do one, two or the three of them.
+This test have multiple levels, depending on your time, you can complete level 1, 2 and 3.
 
-Ideally, if you do the level 2, also do the level 1 and if you do level 3, do all of them.
+You can't not choose to do level 3 or 2, if you haven't completed level 1. The levels must be done successively.
 
 1) [Render data from a JSON file](#level-1)
-2) [Render data from a fetch call](#level-2)
-3) [Create the API that returns the data](#level-3)
-
+2) [Render data from an API request](#level-2)
+3) [Create an API that returns the weather data](#level-3)
+4) [Render the weather of any city](#level-4)
 ### Level 1
 
-Your goal is to render data from the file `data.json`.
+Your goal is to render the weekly weather from the file `data.json`.
 
-You can chose the way you render the data (table, list, etc).
+Feel free to choose how to display the data
 
 ### Level 2
 
-Here you will have to render the current weather in **Paris** using the [MetaWeather API](https://www.metaweather.com/api/).
+Here, you will have to render the current weather in **Paris** using the [MetaWeather API](https://www.metaweather.com/api/).
 
-Same as level 1, you chose how you want to display things.
+Same as level 1, you choose how you want to display the information.
 
 ### Level 3
 
-This level is similar to level 1, but instead of rendering data from the JSON file `data.json` directly, you will create an API that will serve this file and use it to render the data.
+For this level, you will create an API. Your goal is to get the weekly weather of any city. You could use [OpenWeatherMap API](https://openweathermap.org/) or any API that you may know to get the information :)
 
-You are free to use any framework (or no framework at all) you want for the API.
+This implies, that a user will query your API searching for the weather of a given city.
+
+You are free to use any framework, or no framework at all, to develop the API.
+
+### Level 4
+
+Now, that you have developed your own API, it's time to use it.
+
+Modify your React application to use your new API, and render the weekly weather of any city. 
+
+We recommend you to handle API responses correctly.
 
 ## Bonus
 
-No specific bonus but you can do anything you think would be an improvment to your application.
+You can develop this technical test, applying any good practices, design pattern, environment configuration, or anything that would be an improvement to your application.
 
 Some ideas would be:
 
-- `dev` and `build` scripts
-- Tests
+- NPM scripts
+- Unit tests
+- Surprise us :)
+
+Note: Remember you will not only be evaluated by the code, but also your decision making. 🐿
